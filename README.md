@@ -33,16 +33,16 @@ The database schema consists of 14 tables, each playing a specific role in the s
 14) Payment_Methods: Contains information about the various payment methods used in the store.
 
 # Table Relationships
-Customers and Invoices: A customer can have many invoices, but an invoice belongs to only one customer.
+1) Customers and Invoices: A customer can have many invoices, but an invoice belongs to only one customer.
 
-Invoices and Invoice Items: An invoice can have many items, but an item belongs to only one invoice.
+2) Invoices and Invoice Items: An invoice can have many items, but an item belongs to only one invoice.
 
-Invoices and Invoice Payments: An invoice can have many payments, but a payment belongs to only one invoice.
+3) Invoices and Invoice Payments: An invoice can have many payments, but a payment belongs to only one invoice.
 
-Invoices and Invoice Discounts: An invoice can have many discounts, but a discount belongs to only one invoice.
+4) Invoices and Invoice Discounts: An invoice can have many discounts, but a discount belongs to only one invoice.
 
-Products and Product Discounts: A product can have many discounts, but a discount belongs to only one product.
+5) Products and Product Discounts: A product can have many discounts, but a discount belongs to only one product.
 
-Products and Product Taxes: A product can have many taxes, but a tax belongs to only one product.
+6) Products and Product Taxes: A product can have many taxes, but a tax belongs to only one product.
 
-Customers and Customer Invoices: A customer can have many customer invoices, and a customer invoice can belong to many customers.
+7) Customers and Customer Invoices: A customer can have many customer invoices, and a customer invoice can belong to many customers.
