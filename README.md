@@ -34,11 +34,19 @@ Payment_Methods: Contains information about the various payment methods used in 
 
 # Table Relationships
 Categories: One-to-many relationship with Products.
+
 Products and Discounts: Many-to-many relationship, managed via the Product_Discounts table.
+
 Products and Taxes: Many-to-many relationship, managed via the Product_Taxes table.
+
 Invoices and Customers: One-to-many relationship, managed via the Customer_Invoices table.
+
 Invoices and Products: Many-to-many relationship, managed via the Invoice_Items table.
+
 Invoices and Discounts: Many-to-many relationship, managed via the Invoice_Discounts table.
+
 Invoices and Payments: One-to-many relationship, managed via the Invoice_Payments table.
+
 Invoices and Savings: One-to-one relationship, tracking the total savings per invoice.
+
 Payment Methods: Linked to Invoice_Payments, providing information on how payments were made.
