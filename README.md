@@ -1,4 +1,4 @@
-# Supermarket Database Overview
+# Supermarket Database_Bottom Up Approach
 This repository contains SQL scripts for creating and populating a retail store database using a top-down approach. The database is designed to manage and track various aspects of a supermarket, including products, customers, invoices, discounts, taxes, and more.
 
 # Database Schema
